@@ -58,20 +58,18 @@ pip install -r requirements.txt
 
 ## ➤ Usage
 
-Train and evaluate directly in Google Colab or locally:
+Train and evaluate directly in Google Colab or locally: `jupyter notebook v_2.ipynb`
 
-jupyter notebook v_2.ipynb
-
-The notebook contains:
--	Implementation of BiLSTM Tagger
--	Implementation of BiLSTM + CRF model with Viterbi decoding
--	Comparative analysis, training curves, and F1 evaluation
+> The notebook contains:
+> -	Implementation of BiLSTM Tagger
+> -	Implementation of BiLSTM + CRF model with Viterbi decoding
+> -	Comparative analysis, training curves, and F1 evaluation
 
 
 ## ➤ Core Algorithm: Viterbi Decoding
 
-The Viterbi Algorithm computes the most probable sequence of labels (tags) given emission and transition scores from the CRF layer.
-At each time step, it maintains dynamic programming states that recursively compute the maximum path probability and backtrack pointers to recover the optimal label sequence.
+> ## The Viterbi Algorithm computes the most probable sequence of labels (tags) given emission and transition scores from the CRF layer.
+> At each time step, it maintains dynamic programming states that recursively compute the maximum path probability and backtrack pointers to recover the optimal label sequence.
 
 <p align="center">
   <img src="https://github.com/keerthanap8898/Neural-CRF_NER-Tagger/blob/main/resources/viterbi-algorithm.png" width="620" alt="Viterbi Algorithm Diagram"><br>
@@ -82,9 +80,8 @@ At each time step, it maintains dynamic programming states that recursively comp
 ## ➤ Related Literatures and References
 
 ### A. Wikipedia Reference & Pseudocode
- -	Title: Viterbi Algorithm — Wikipedia
+> Canonical explanation of the dynamic programming approach for maximum-likelihood sequence estimation.
  -	[wikipedia.org/wiki/Viterbi_algorithm](https://en.wikipedia.org/wiki/Viterbi_algorithm)
-   -	Canonical explanation of the dynamic programming approach for maximum-likelihood sequence estimation.
  -	[wikipedia.org/wiki/Viterbi_algorithm#Pseudocode](https://en.wikipedia.org/wiki/Viterbi_algorithm#Pseudocode)
 
 ### B. Algorithm & Implementation
