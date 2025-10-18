@@ -141,3 +141,8 @@ It serves as a clear, reproducible reference for understanding how BiLSTM-CRF ar
 <p align="center">
   <em>“Structured learning meets sequence modeling — decoding meaning through structure.”</em>
 </p>
+
+```
+Copyright (C) 2025  Keerthana Purushotham <keerthanap0808@gmail.com>, <kpurusho@ucsd.edu>, <keep.consult@proton.me>.
+Licensed under MIT. See LICENSE for details.
+```
